@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -24,7 +23,7 @@
     let alimentos = [];
 
     async function cargarDatos() {
-      const respuesta = await fetch('alimentos.json');
+      const respuesta = await fetch('alimentos_3000.json');
       alimentos = await respuesta.json();
     }
 
@@ -38,7 +37,11 @@
       const filtrados = alimentos.filter(a => a.nombre.toLowerCase().includes(valor));
       filtrados.forEach(a => {
         const li = document.createElement("li");
-        li.innerHTML = `<strong class="${a.color}">${a.nombre}</strong><br><small>${a.recomendacion}</small>`;
+        li.innerHTML = `
+          <strong class="${a.color}">${a.nombre}</strong><br>
+          <small><strong>Glucosa estimada:</strong> ${a.glucosa}<br>
+          <strong>Recomendación:</strong> ${a.recomendacion}</small>
+        `;
         resultados.appendChild(li);
       });
     });
