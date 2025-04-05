@@ -1,0 +1,102 @@
+[
+  {
+    "nombre": "Tostada con nutella",
+    "color": "rojo",
+    "recomendacion": "Evitar o consumir solo con proteína y poca cantidad."
+  },
+  {
+    "nombre": "Huevo revuelto",
+    "color": "verde",
+    "recomendacion": "Excelente opción en cualquier momento del día."
+  },
+  {
+    "nombre": "Pan integral con aguacate",
+    "color": "amarillo",
+    "recomendacion": "Buena opción si no se acompaña con azúcar o jugo."
+  },
+  {
+    "nombre": "Croqueta de jamón",
+    "color": "rojo",
+    "recomendacion": "Evitar, alto contenido de grasa y carbohidrato."
+  },
+  {
+    "nombre": "Tortilla de maíz",
+    "color": "amarillo",
+    "recomendacion": "Buena opción si se limita a 1–2 y se acompaña con proteína."
+  },
+  {
+    "nombre": "Ensalada de nopal",
+    "color": "verde",
+    "recomendacion": "Muy buena opción, rica en fibra y baja en glucosa."
+  },
+  {
+    "nombre": "Pan dulce",
+    "color": "rojo",
+    "recomendacion": "Evitar, contiene azúcares y harinas refinadas."
+  },
+  {
+    "nombre": "Avena cocida con chía",
+    "color": "amarillo",
+    "recomendacion": "Mejor con fruta baja en glucosa, como moras o fresas."
+  },
+  {
+    "nombre": "Pepino con limón",
+    "color": "verde",
+    "recomendacion": "Snack fresco y sin impacto en glucosa."
+  },
+  {
+    "nombre": "Refresco de cola",
+    "color": "rojo",
+    "recomendacion": "Evitar por contenido alto en azúcar."
+  },
+  {
+    "nombre": "Yogur natural sin azúcar",
+    "color": "verde",
+    "recomendacion": "Buena opción con toppings naturales."
+  },
+  {
+    "nombre": "Frijoles de la olla",
+    "color": "verde",
+    "recomendacion": "Muy buenos si se controlan las porciones y sin grasa añadida."
+  },
+  {
+    "nombre": "Galletas de avena caseras",
+    "color": "amarillo",
+    "recomendacion": "En porción controlada y sin azúcar añadida son aceptables."
+  },
+  {
+    "nombre": "Pastel de chocolate",
+    "color": "rojo",
+    "recomendacion": "Evitar, alto en azúcar y grasa."
+  },
+  {
+    "nombre": "Nueces",
+    "color": "verde",
+    "recomendacion": "Excelentes como snack saludable y saciante."
+  },
+  {
+    "nombre": "Plátano",
+    "color": "amarillo",
+    "recomendacion": "Buena fuente de energía, ideal con proteína para frenar el pico."
+  },
+  {
+    "nombre": "Jugo de naranja",
+    "color": "rojo",
+    "recomendacion": "Evitar, alto impacto glucémico por ser líquido sin fibra."
+  },
+  {
+    "nombre": "Queso fresco",
+    "color": "verde",
+    "recomendacion": "Aporta proteína sin alterar la glucosa."
+  },
+  {
+    "nombre": "Croissant",
+    "color": "rojo",
+    "recomendacion": "Evitar, mezcla de harina refinada y grasa."
+  },
+  {
+    "nombre": "Arepa integral",
+    "color": "amarillo",
+    "recomendacion": "Aceptable si va con proteína y no se consume en exceso."
+  }
+]

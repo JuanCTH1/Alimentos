@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de alimentos</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    input { width: 100%; padding: 10px; font-size: 16px; }
+    ul { list-style-type: none; padding: 0; }
+    li { padding: 5px 0; }
+    .rojo { color: red; }
+    .amarillo { color: orange; }
+    .verde { color: green; }
+  </style>
+</head>
+<body>
+  <h1>Buscador de alimentos y glucosa</h1>
+  <input type="text" id="buscador" placeholder="Escribe un alimento (ej. nute, huevo, pan)...">
+  <ul id="resultados"></ul>
+
+  <script>
+    let alimentos = [];
+
+    async function cargarDatos() {
+      const respuesta = await fetch('alimentos.json');
+      alimentos = await respuesta.json();
+    }
+
+    const input = document.getElementById("buscador");
+    const resultados = document.getElementById("resultados");
+
+    input.addEventListener("input", () => {
+      const valor = input.value.toLowerCase();
+      resultados.innerHTML = "";
+
+      const filtrados = alimentos.filter(a => a.nombre.toLowerCase().includes(valor));
+      filtrados.forEach(a => {
+        const li = document.createElement("li");
+        li.innerHTML = `<strong class="${a.color}">${a.nombre}</strong><br><small>${a.recomendacion}</small>`;
+        resultados.appendChild(li);
+      });
+    });
+
+    cargarDatos();
+  </script>
+</body>
+</html>
